@@ -1,0 +1,15 @@
+.mainComponent{
+    background-color: rgb(233, 165, 165);
+}
+
+.servicesComponent{
+    display: flex;
+}
+
+.leftServicesComponent{
+    width: 50%;
+}
+
+.rightleftServicesComponent{
+    width: 50%;
+}
