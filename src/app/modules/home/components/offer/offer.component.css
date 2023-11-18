@@ -1,3 +1,35 @@
-.mainComponent{
+.mainContainer{
     background-color: rgb(197, 248, 218);
+    margin: 4em;
+}
+
+.titleContainer{
+    text-align: center;
+}
+
+.contentContainer{
+    display: flex;
+}
+
+.imagenContainer{
+    padding: 3em;
+}
+
+.img-left{
+    width: 500px;
+    height: 500px;
+}
+
+.descriptionContainer{ 
+    align-self: center;
+}
+
+.textEnvironmentTitle{
+    font-size: 1.5em;
+    margin: 0.4em;
+    margin-left: 1.2em;
+}
+
+.textEnvironmentDescription{
+    font-size: 1.2;
 }

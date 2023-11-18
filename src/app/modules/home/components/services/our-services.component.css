@@ -10,6 +10,41 @@
     width: 50%;
 }
 
-.rightleftServicesComponent{
+.rightServicesComponent{
     width: 50%;
+}
+
+.serviceComponent{
+    padding-bottom: 2em;
+}
+
+.titleServicesComponent{
+    display: flex;
+    margin-top: 1em;
+    margin-left: 8em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.description-services{
+    padding-left: 4em;
+    padding-right: 2em;
+    font-size: 1em;
+}
+
+.titleComponent{
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+.img-icon{
+    width: 80px;
+    height: 80px;
+}
+
+.title-services{
+    font-size: 2em;
+    align-self: center;
+    padding-left: 1em;
 }

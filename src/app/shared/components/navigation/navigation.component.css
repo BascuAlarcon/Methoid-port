@@ -1,3 +1,43 @@
 .container-fluid{
     flex-direction: column;
 }
+
+.modalMainContainer{
+    display: flex;
+}
+
+.leftContainer{
+    width: 50%;
+}
+
+.rightContainer{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+
+.inputForm{
+
+}
+ 
+.buttonContainer{
+    text-align: center;
+}
+
+.img-right{
+    width: 300px;
+}
+
+.btnEnviar{
+    width: 50%;
+}
+
+.labelInput{
+    padding-left: 1em;
+    margin-bottom: 0.3em;
+    font-weight: 400;
+}
+
+.titleContainer{
+    text-align: center;
+}

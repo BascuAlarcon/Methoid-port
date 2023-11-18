@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'copyrights',
     loadChildren: () => import('./modules/copyright/copyright.module').then(m => m.CopyrightModule)
   },
+  {
+    path: 'contact',
+    loadChildren: () => import('./modules/contact/contact.module').then(m => m.ContactModule)
+  },
 ];
 
 @NgModule({

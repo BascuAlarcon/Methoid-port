@@ -1,0 +1,23 @@
+.mainContainer{
+    display: flex;
+    background-color: rgb(179, 127, 228);
+}
+
+.leftContainer{
+    width: 50%;
+    margin: 3em;
+    text-align: center;
+    align-self: center;
+}
+
+.img-left{
+    width: 800px;
+    height: 500px;
+}
+
+.rightContainer{
+    width: 50%;
+    margin: 3em;
+    text-align: center; 
+    padding-top: 2em;
+}

@@ -1,0 +1,22 @@
+.mainContainer{
+    background-color: antiquewhite;
+    display: flex; 
+}
+
+.textContainer{
+    text-align: center;
+    align-self: center;
+    width: 50%;
+    margin: 4em;
+}
+
+.imagenContainer{
+    text-align: center;
+    width: 50%; 
+    margin: 3em;
+}
+
+.img-right{
+    width: 400px;
+    height: 400px;
+}

@@ -1,0 +1,15 @@
+.mainContainer{
+    display: flex;
+    background-color: chocolate;
+}
+
+.leftContainer{
+    margin: 2em;
+    width: 50%; 
+}
+
+.rightContainer{
+    margin: 2em;
+    width: 50%;
+    text-align: center;
+}

@@ -1,4 +1,19 @@
 
-<div class="mainComponent">
-    <p>offer component!</p>
+<div class="mainContainer">
+    <div class="titleContainer">
+        <h3>Ambiente de Trabajo</h3>
+        <h4>Metodologia</h4>
+    </div>
+    <div class="contentContainer">
+        <div class="imagenContainer">
+            <img class="img-left" src="https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA" alt="Imagen no cargada">
+        </div>
+        <div class="descriptionContainer">
+            <div *ngFor="let valor of valores; let i = index" class="descriptionContainer">
+                <h4 class="textEnvironmentTitle" class="textEnvironmentTitle">{{ valor.title }}</h4>
+                <h5 class="textEnvironmentDescription" class="textEnvironmentDescription">{{ valor.description }}</h5>
+                <hr>
+            </div>    
+        </div>
+    </div> 
 </div>

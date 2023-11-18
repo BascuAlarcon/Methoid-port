@@ -1,0 +1,42 @@
+.mainContainer{
+    background-color: rgb(213, 241, 184);
+}
+
+.topContainer{
+
+}
+
+.midContainer{
+    
+}
+
+.titleText{
+    text-align: center;
+    font-size: 3em;
+}
+
+.midContentContainer{
+    display: flex;
+    text-align: center;
+    align-self: center;
+}
+
+.plataformSelectorContainer{
+    width: 50%;
+    margin-right: 3em;
+}
+
+.descriptionPlataformContainer{
+    width: 50%;
+    text-align: center;
+    padding-right: 12%;
+}
+
+.bottomContainer{ 
+    text-align: center;  
+}
+
+.buttonContainer{
+    text-align: center;
+}
+ 

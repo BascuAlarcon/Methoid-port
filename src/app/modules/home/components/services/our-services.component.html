@@ -1,36 +1,31 @@
 <div class="mainComponent">
     <div class="titleComponent">
-        <h1>Title</h1>
-        <h2>SubTitle</h2>
+        <h2>Title</h2>
+        <h4>SubTitle</h4>
     </div>
     <div class="servicesComponent">
+          
         <div class="leftServicesComponent">
-            <div class="serviceComponent">
-                <img src="" alt="Img">
-                Texto
-            </div>
-            <div class="serviceComponent">
-                <img src="" alt="Img">
-                Texto
-            </div>
-            <div class="serviceComponent">
-                <img src="" alt="Img">
-                Texto
-            </div>
+            <div *ngFor="let servicio of servicios | slice: 0:3; let i = index;" >
+                <div class="serviceComponent">
+                    <div class="titleServicesComponent">
+                        <img class="img-icon" src="https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA" alt="Imagen no cargada">
+                        <div class="title-services">{{ servicio.title }}</div>
+                    </div>
+                    <div class="description-services">{{ servicio.description }}</div>
+                </div> 
+            </div>  
         </div>
         <div class="rightServicesComponent">
-            <div class="serviceComponent">
-                <img src="" alt="Img">
-                Texto
-            </div>
-            <div class="serviceComponent">
-                <img src="" alt="Img">
-                Texto
-            </div>
-            <div class="serviceComponent">
-                <img src="" alt="Img">
-                Texto
-            </div>
-        </div>
+            <div *ngFor="let servicio of servicios | slice: 3:6; let i = index;" >
+                <div class="serviceComponent">
+                    <div class="titleServicesComponent">
+                        <img class="img-icon" src="https://play-lh.googleusercontent.com/ZyWNGIfzUyoajtFcD7NhMksHEZh37f-MkHVGr5Yfefa-IX7yj9SMfI82Z7a2wpdKCA" alt="Imagen no cargada">
+                        <div class="title-services">{{ servicio.title }}</div>
+                    </div>
+                    <div class="description-services">{{ servicio.description }}</div>
+                </div> 
+            </div>  
+        </div> 
     </div>
 </div>
