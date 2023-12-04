@@ -13,12 +13,14 @@
 .titleText{
     text-align: center;
     font-size: 3em;
+    margin: 1em;
 }
 
 .midContentContainer{
     display: flex;
     text-align: center;
     align-self: center;
+    padding-top: 2em;
 }
 
 .plataformSelectorContainer{
@@ -26,11 +28,16 @@
     margin-right: 3em;
 }
 
+.plataform{
+    background-color: aqua;
+}
+
 .descriptionPlataformContainer{
     width: 50%;
     text-align: center;
     padding-right: 12%;
 }
+
 
 .bottomContainer{ 
     text-align: center;  

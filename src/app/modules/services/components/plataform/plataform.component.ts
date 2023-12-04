@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-
-@Component({
+ @Component({
   selector: 'app-plataform',
   templateUrl: './plataform.component.html',
   styleUrls: ['./plataform.component.css']

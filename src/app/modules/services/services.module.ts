@@ -7,6 +7,7 @@ import { ServicesComponent } from './page/services.component';
 import { PlataformComponent } from './components/plataform/plataform.component';
 import { CycleComponent } from './components/cycle/cycle.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
+import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { IntroductionComponent } from './components/introduction/introduction.co
   imports: [
     CommonModule,
     ServicesRoutingModule,
-    SharedModule
+    SharedModule,
+    MatIconModule
   ]
 })
 export class ServicesModule { }

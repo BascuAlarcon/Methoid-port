@@ -1,0 +1,9 @@
+.privacidadContainer{
+	display: flex;
+	flex-direction: column;
+	margin: 2em; 
+}
+
+.text-title{
+    align-self: center;
+}
