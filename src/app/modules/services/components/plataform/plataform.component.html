@@ -3,13 +3,16 @@
         <img src="" alt="">
     </div>
     <div class="midContainer">
+        <button class="btn btn-primary" (click)="tempRef.show()">test</button>
         <div class="titleText">Tu eliges la plataforma</div>
-        <div class="midContentContainer">
-            <div class="plataformSelectorContainer">
+
+        <div #tempRef="matTooltip" matToolTipPosition="above" matTooltip="Mensaje" matTooltipDisabled class="midContentContainer">
+            <div class="plataformSelectorContainer"> 
                 <div>
                     <h3 class="plataform">APP WEB</h3> 
                     <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
                 </div>
+                <h3 class="plataform">APP ESCRITORIO</h3>
                 <h3 class="plataform">APP ESCRITORIO</h3>
                 <h3 class="plataform">APP MOBILE</h3>
             </div>
@@ -18,6 +21,7 @@
                 <h4>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal </h4>
             </div>
         </div>
+
     </div>
     <div class="bottomContainer">
         <hr>

@@ -8,6 +8,7 @@ import { PlataformComponent } from './components/plataform/plataform.component';
 import { CycleComponent } from './components/cycle/cycle.component';
 import { IntroductionComponent } from './components/introduction/introduction.component';
 import { MatIconModule } from '@angular/material/icon';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MatIconModule } from '@angular/material/icon';
     CommonModule,
     ServicesRoutingModule,
     SharedModule,
-    MatIconModule
+    MatIconModule,
+    MatTooltipModule
   ]
 })
 export class ServicesModule { }
