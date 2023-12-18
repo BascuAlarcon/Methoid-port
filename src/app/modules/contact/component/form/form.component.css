@@ -13,3 +13,24 @@
     width: 50%;
     text-align: center;
 }
+
+.formContainer{
+    padding-left: 8em;
+    padding-right: 8em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.cellphoneContainer{
+    padding-left: 2em;
+}
+
+.mat-mdc-form-field{
+    display: block;
+    width: 20em;
+}
+
+.titleContainer{
+    text-align: center;
+}

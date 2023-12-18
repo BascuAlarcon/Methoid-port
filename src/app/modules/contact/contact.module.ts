@@ -7,11 +7,11 @@ import { ContactComponent } from './page/contact.component';
 import { SharedModule } from 'src/app/shared/shared.module'; 
 import { FormComponent } from './component/form/form.component';
 import { LinksComponent } from './component/links/links.component'; 
-import {MatDatepickerModule} from '@angular/material/datepicker'; 
+import { MatDatepickerModule} from '@angular/material/datepicker'; 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatInputModule } from '@angular/material/input';
-
+import { MatSelectModule} from '@angular/material/select'; 
 @NgModule({
   declarations: [ 
     ContactComponent, 
@@ -26,7 +26,8 @@ import { MatInputModule } from '@angular/material/input';
     MatFormFieldModule,
     MatInputModule, 
     MatDatepickerModule, 
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatSelectModule
 
   ]
 })

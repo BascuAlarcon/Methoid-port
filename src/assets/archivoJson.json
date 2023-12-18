@@ -1,0 +1,17 @@
+[
+    {
+      "imagen":"../assets/logo-10dejulio-1-transparente.png",
+      "title": "card1",
+      "description":"Empresa dedicada a la venta de respuestos automotriz"
+    }, 
+    {
+      "imagen":"../assets/MAKY_RESTO__SUSHI.png",
+      "title": "card2",
+      "description":"Empresa dedicada a la produccion y venta de sushi"
+    }, 
+    {
+      "imagen":"../assets/VA.png",
+      "title": "card3",
+      "description":"Empresa dedicada a la construccion y venta de casas"
+    }
+  ]

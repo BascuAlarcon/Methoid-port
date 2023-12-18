@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { FooterComponent } from './components/footer/footer.component';  
 import { OurClientsComponent } from './components/our-clients/our-clients.component';
-
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -16,6 +16,7 @@ import { OurClientsComponent } from './components/our-clients/our-clients.compon
   imports: [
     CommonModule,
     RouterModule,
+    MatTooltipModule,
   ],
   exports: [
     NavigationComponent,

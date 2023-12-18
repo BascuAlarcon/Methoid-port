@@ -1,49 +1,36 @@
-.mainContainer{
-    background-color: rgb(213, 241, 184);
-}
-
-.topContainer{
-
-}
-
-.midContainer{
-    
-}
-
-.titleText{
-    text-align: center;
-    font-size: 3em;
-    margin: 1em;
-}
-
-.midContentContainer{
+.titulo {
+    margin-top: 10px;
     display: flex;
-    text-align: center;
-    align-self: center;
-    padding-top: 2em;
+    justify-content: center;
+    align-items: center;
 }
 
-.plataformSelectorContainer{
-    width: 50%;
-    margin-right: 3em;
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
 }
 
-.plataform{
-    background-color: aqua;
+.container{
+    background-color: black;
+    height: 310px;
+    width: 260px;
+    border-radius: 10px;
+    margin: 15px;
+    color: aliceblue;
+    transition:  0.8s linear 0.10s;
 }
 
-.descriptionPlataformContainer{
-    width: 50%;
-    text-align: center;
-    padding-right: 12%;
+.container:hover {
+    height: 350px;
+    width: 300px;
+    margin: 4px;
+    box-shadow: 5px 5px 20px black;
 }
 
-
-.bottomContainer{ 
-    text-align: center;  
-}
-
-.buttonContainer{
-    text-align: center;
+.iconos {
+    height: 70px;
+    width: 70px;
 }
  
